@@ -1,0 +1,132 @@
+.nvovo{
+    height: 100px;
+    padding-top: 25px;
+}
+
+.logo{
+        padding-left: 50px;
+    }
+.search-bar{
+    width: 184px;
+    height:46px ;
+    position: relative;
+}
+
+.search-bar input{
+        width: 230px;
+        height:46px ;
+        background-color: #ede8e8;
+        border: none;
+        padding-left: 100px;
+    }
+
+
+.search-bar input::placeholder {
+    color: #807D7E;
+    font-size: 18px;
+  }
+
+.search-bar img{
+   position: absolute;
+   top: 15px;
+   left: 75px;
+   color: #807D7E;
+}
+
+.language-selector{
+   border: none;
+   margin-top: 10px;
+   
+}
+
+.btn1{
+    width: 140px;
+    height: 46px;
+    background-color: #8A33FD;
+    border: none;
+    font-size: large; 
+}
+
+.btn1:hover{
+    opacity: 0.8;
+}
+
+.btn2{
+    width: 156px;
+    height: 46px;
+    background-color: white;
+    font-size: large;
+    color: #8A33FD;
+    border-width: 1px;
+   
+}
+
+.btn2:hover{
+    opacity: 0.8;
+}
+
+/* Custom CSS for xl screen size */
+@media (min-width: 1200px)  {
+    .search-bar{
+        margin-left: 140px;
+    }
+
+    .language-selector{
+        margin-left: 180px;
+     }
+
+     .btn1{
+        margin-left: 55px;
+        
+    }
+
+    .btn2{
+        margin-left: 29px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1199px) { 
+
+    .btn1{
+        width: 129px;
+       
+    }
+
+    .btn2{
+        margin-left: 20px;
+        width: 139px;
+        margin-right: 25px;
+    }
+
+    .butt{
+        display: flex;
+        justify-content:right;
+        
+    }
+  
+}
+
+@media  (max-width: 766px) { 
+
+   .butt{
+        display: none;
+    }
+
+}
+
+        /* authNavbar------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+        
+
+
+ 
+  
+  
+  
+  
+  
+  
